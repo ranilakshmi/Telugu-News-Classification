@@ -8,7 +8,7 @@ y_preds = tf.argmax(pred_probs, axis=1)
 class_names = ['business', 'editorial', 'entertainment', 'nation', 'sports']
 if st.button('Predict'):
     st.write(f"Predicted label: {class_names[y_preds[[0]]]}\n")
-st.heading('NLP Project')
+st.subheading('NLP Project')
 st.write('Team Members')
 st.write('1.Sujanya Reddy')
 st.write('2.Deepthi Appasani')
