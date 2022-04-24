@@ -1,7 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 st.title("Telugu News Classification")
-st.heading("NLP Project")
+st.subheader("NLP Project")
 st.write("Team Members")
 st.write("1.Sujanya Reddy")
 st.write("2.Deepthi Appasani")
